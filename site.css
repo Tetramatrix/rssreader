@@ -1,0 +1,43 @@
+
+#rss{
+		height:100%;
+		width:65%;
+}
+
+#menu {
+	float:left;
+	height:100%;
+	width:200px;
+	margin-right:20px;
+	overflow-x:hidden;	
+}
+
+#feed {
+	height:100%;
+	display:block;
+	overflow-x:hidden;
+	padding-right:20px;
+	margin:0;
+	overflow-y:scroll;
+}
+
+.button {
+	float: right;
+}
+
+.news {
+	padding-bottom: 30px;
+  padding-right: 20px;
+	width: 100%;
+}
+
+#addmenu {
+	z-index:100;
+	left: 40%;
+  top: 40%;
+  position:absolute;
+  background-color:white;
+  border: 1px solid black;
+  padding: 20px;
+  visibility: hidden;
+}
